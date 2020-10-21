@@ -1,0 +1,12 @@
+.thirdContainer {
+    width: 120px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 60px 80px 60px;
+    font-size: 200%;
+    background: rgb(253, 201, 19);
+    padding: 10px;
+    text-align: center;
+    grid-row: 3;
+}

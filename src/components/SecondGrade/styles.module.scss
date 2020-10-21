@@ -1,0 +1,29 @@
+.secondContainer {
+    width: 550px;
+    height: 500px;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10px 40px 600px;
+    place-items: center;
+    background: rgb(35, 177, 77);
+    font-size: 80%;
+    text-align: center;
+    grid-row: 3;
+}
+
+.header {
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 28px;
+}
+
+.paragraf {
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 24px;
+}
